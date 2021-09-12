@@ -38,7 +38,7 @@ for i in range(10, 1178 + 1):
     if not (i % 2):
         if i % 10 != 0 and i % 10 != 2 and i % 10 != 6 and i % 10 != 8 and i % 100 != 14:
             bag.append(i)
-print("53:", sum(bag), bag[0])
+print(sum(bag), bag[0])
 
 # 74
 bag = []
